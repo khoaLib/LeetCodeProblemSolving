@@ -13,6 +13,13 @@
     Test.assertEquals(descendingOrder(0), 0)
     Test.assertEquals(descendingOrder(1), 1)
     Test.assertEquals(descendingOrder(123456789), 987654321)
+    
+    Test.assertEquals(descendingOrder(0), 0)
+    Test.assertEquals(descendingOrder(1), 1)
+    Test.assertEquals(descendingOrder(111), 111)
+    Test.assertEquals(descendingOrder(15), 51)
+    Test.assertEquals(descendingOrder(1021), 2110)
+    Test.assertEquals(descendingOrder(123456789), 987654321)
 
 ### Solution: 
 ```C
